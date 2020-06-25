@@ -18,7 +18,7 @@ Caractères spéciaux :
  -->
 
 	<?php
-		require_once('functions.php');
+		// require_once('functions.php');
 		$myIniFile = parse_ini_file ("config.ini", TRUE);
 		function split_directory($directory){
 			$splitted_directory = '';
